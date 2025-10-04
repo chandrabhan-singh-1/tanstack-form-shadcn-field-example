@@ -83,7 +83,7 @@ export default function DateInputForm() {
                   onBlur={field.handleBlur}
                   onChange={(e) => field.handleChange(e.target.value)}
                   aria-invalid={field.state.meta.isTouched && !field.state.meta.isValid}
-                  placeholder="m@example.com"
+                  placeholder="John Doe"
                 />
                 <FieldError errors={field.state.meta.errors} />
               </Field>
